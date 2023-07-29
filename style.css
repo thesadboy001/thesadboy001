@@ -11,3 +11,9 @@
     border-radius: 0;
     margin-bottom: 1rem;
 }
+.top-bar-right {
+    float: right
+}
+.menu {
+    margin: 0
+}
