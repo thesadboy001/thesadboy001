@@ -1,19 +1,16 @@
 body{
     background-image: url(images/5549789.gif);
     background-attachment: fixed;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif;   
 }
 .menu {
     display: none;
 }
 .miniaturas{
     border: 4px solid #fefefe;
-    box-shadow: 0 0 0 1px rgba(10,10,10,.2);
-    display: inline-block;
-    line-height: 0;
-    max-width: 100%;
-    transition: box-shadow .2s ease-out;
-    border-radius: 0;
-    margin-bottom: 1rem;
 }
 .top-bar-right {
     float: right;
