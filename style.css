@@ -1,5 +1,6 @@
 body{
     background-image: url(images/5549789.gif);
+    background-attachment: fixed;
 }
 .menu {
     display: none;
