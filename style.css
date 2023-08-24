@@ -1,9 +1,9 @@
 body{
     background-image: url(images/5549789.gif);
     background-attachment: fixed;
-    margin: auto;
-    width: 640px; 
-    padding: 50px;
+    margin: 0; 
+    padding: 0px;
+    font-size: 13px;
     font-family: 'Arial', sans-serif;   
 }
 
@@ -26,15 +26,34 @@ p, h1, h3{
     text-align: justify;
 }
 a{
-    color:black;
     text-decoration: none;
+    cursor: pointer;
 }
 
-#contentmenu{
+header{
+    height: 60px;
+    width: 100%;
+}
+
+header nav{
     background-color: #008bf3;
     border: 5px solid #00a795;
+    display: flex;
+    justify-content: flex-end;
 }
 
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
+}
 
 .color1 {color: #008bf3;}
 .color2 {color: #00a795;}
