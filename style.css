@@ -7,7 +7,7 @@ body{
     font-family: 'Arial', sans-serif;   
 }
 
-.miniaturas{
+#miniaturas{
     border: 4px solid #fefefe;
     width: 600px;
     text-align: center;
