@@ -29,6 +29,11 @@ a{
     text-decoration: none;
 }
 
+#contentbox{
+    background-color: #008bf3;
+    
+}
+
 
 .color1 {color: #008bf3;}
 .color2 {color: #00a795;}
