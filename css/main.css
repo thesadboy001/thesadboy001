@@ -2,8 +2,7 @@ body{
     margin: 0; 
     padding: 0px;
     font-size: 13px;
-    font-family: 'Arial', sans-serif; 
-    background-color: #000000;
+    font-family: 'Arial', sans-serif;
 }
 header{
     height: 60px;
@@ -27,4 +26,24 @@ header nav .nav-right-section{
 header .nav-right-section a{
     margin-right: 10px;
     color: #000000;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+main {
+    margin-top:75px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 300px;
+}
+
+main .main-logo img {
+    width: 280px;
 }
