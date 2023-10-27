@@ -1,0 +1,95 @@
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Fondo rojo */
+    color: #fff;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #0074D9; /* Fondo azul */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    color: #ffffff; /* Texto en rojo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff; /* Enlaces en rojo */
+    text-decoration: none;
+}
+
+/* Estilo del contenido principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFC300; /* Fondo amarillo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.opinion {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #00A86B; /* Fondo verde */
+    border: 2px solid #FF6B6B; /* Borde en rojo */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Animación al pasar el mouse */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+.opinion:hover {
+    transform: scale(1.05); /* Escalado al pasar el mouse */
+}
+
+.opinion h2 {
+    color: #fff; /* Texto en blanco */
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+}
+
+.opinion p {
+    color: #333; /* Texto en gris oscuro */
+    margin: 0 0 10px;
+}
+
+.opinion p:last-child {
+    position: absolute;
+    bottom: 10px; /* Calificación en la parte inferior */
+    right: 10px; /* Calificación en la esquina inferior derecha */
+    color: #0074D9; /* Texto de la calificación en azul */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0074D9; /* Fondo azul */
+    color: #fff;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #FFC300; /* Enlaces en amarillo */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
