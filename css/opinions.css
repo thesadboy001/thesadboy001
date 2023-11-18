@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7; /* Fondo rojo */
+    background-image: url(/img/fondo.jpeg); /* Fondo */
     color: #fff;
 }
 
@@ -18,7 +18,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2rem; /* Tamaño de fuente más grande */
-    color: #ffffff; /* Texto en rojo */
+    color: #ffffff; /* Texto en blanco */
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav li {
 }
 
 nav a {
-    color: #ffffff; /* Enlaces en rojo */
+    color: #ffffff; /* Enlaces */
     text-decoration: none;
 }
 
@@ -54,11 +54,6 @@ main {
     transition: transform 0.2s; /* Animación al pasar el mouse */
     cursor: pointer; /* Cambio de cursor al pasar el mouse */
 }
-
-.opinion:hover {
-    transform: scale(1.05); /* Escalado al pasar el mouse */
-}
-
 .opinion h2 {
     color: #fff; /* Texto en blanco */
     font-size: 1.5rem; /* Tamaño de fuente más grande */
@@ -68,28 +63,10 @@ main {
     color: #333; /* Texto en gris oscuro */
     margin: 0 0 10px;
 }
-
-.opinion p:last-child {
-    position: absolute;
-    bottom: 10px; /* Calificación en la parte inferior */
-    right: 10px; /* Calificación en la esquina inferior derecha */
-    color: #0074D9; /* Texto de la calificación en azul */
-}
-
 /* Estilo del pie de página */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 32px;
     background-color: #0074D9; /* Fondo azul */
     color: #fff;
-}
-
-/* Estilo para enlaces */
-a {
-    color: #FFC300; /* Enlaces en amarillo */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
