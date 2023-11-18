@@ -33,19 +33,19 @@ nav a {
     text-decoration: none;
 }
 
-/* Estilo del contenido principal */
+/* Estilo contenido principal */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #719764;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #7190a9;
     border: 1px solid #ddd;
 }
 
@@ -53,11 +53,11 @@ article h2 {
     color: #333;
 }
 article img {
-    max-width: 100%; /* Aseguramos que la imagen se ajuste al ancho del artículo */
-    height: auto; /* Mantenemos la proporción de la imagen */
-    display: block; /* Centramos la imagen horizontalmente */
-    margin: 0 auto; /* Centramos la imagen horizontalmente */
-    margin-bottom: 10px; /* Agregamos un espacio entre la imagen y el texto */
+    max-width: 100%; /* imagen se ajusta al ancho del artículo */
+    height: auto; /* proporción de la imagen */
+    display: block; /* Centro la imagen horizontalmente */
+    margin: 0 auto; /* Centro la imagen horizontalmente */
+    margin-bottom: 10px; /* espacio entre la imagen y el texto */
 }
 
 
@@ -66,13 +66,13 @@ article a {
     color: #0074D9;
 }
 
-/* Estilo de la barra lateral */
+/* Estilo del contenido secundario o lateral */
 aside {
     width: 300px;
     margin: 20px;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(214, 5, 5, 0.794);
 }
 
 aside h2 {
@@ -88,7 +88,7 @@ aside li {
     margin-bottom: 10px;
 }
 
-/* Estilo del pie de página */
+/* Estilo pie de página */
 footer {
     text-align: center;
     padding: 10px;
@@ -96,12 +96,8 @@ footer {
     color: #fff;
 }
 
-/* Estilo para enlaces */
+/* Estilo de enlaces */
 a {
     color: #0074D9;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
