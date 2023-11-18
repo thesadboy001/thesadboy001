@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image: url(/img/fondo2.jpg);
     color: #333;
 }
 
 /* Estilo del encabezado */
 header {
-    background-color: #0074D9;
+    background-color: #91b454;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -39,7 +39,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,16 +63,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0074D9;
+    background-color: #c87951;
     color: #fff;
-}
-
-/* Estilo para enlaces */
-a {
-    color: #0074D9;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
